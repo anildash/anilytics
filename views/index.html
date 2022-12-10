@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>Anilytics</title>
+    <script>if (location.protocol !== "https:") location.protocol = "https:";</script>
+    <meta property="og:title" content="Adalytics">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lady_ada_king">
+    <meta name="twitter:creator" content="@lady_ada_king">
+    <meta property="og:url" content="https://adalytics-live.glitch.me">
+    <meta property="og:description" content="Cookie-free, Analytics and Hit Counter">
+    <meta name="description" content="Cookie-free, Analytics and Hit Counter"/>
+    <meta property="og:image" content="https://cdn.glitch.com/1695682e-08d3-41c8-a322-1e235b5782e1%2Fimage.png?v=1561449954420">
+    
+  </head>
+  <body>
+    <header>
+      <h1>
+        My Analytics
+      </h1>
+      <p>
+        To include the analytics in your site at the following tag to your page:
+        <pre><code><script>document.write('&ltimg src="' + document.location.origin + '/counter.png?fallback=MY_WEBSITE&color=black" alt="" style="vertical-align: bottom;" aria-hidden="true"&gt;');</script></code></pre>
+        Counter: <script>document.write('<img src="' + document.location.origin + '/counter.png?color=teal&fallback=Adalytics" alt="" aria-hidden="true" style="vertical-align: bottom;">');</script>
+      </p>
+    </header>
+
+    <!-- split -->
+    <main>
+      <!-- split -->
+    </main>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  
+    <footer>
+      &copy; Ada Rose Cannon, source code is MIT Licensed. <a href="https://glitch.com/~adalytics-live" target="_blank">Source</a>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
